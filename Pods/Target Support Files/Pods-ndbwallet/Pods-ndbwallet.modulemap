@@ -1,0 +1,6 @@
+framework module Pods_ndbwallet {
+  umbrella header "Pods-ndbwallet-umbrella.h"
+
+  export *
+  module * { export * }
+}

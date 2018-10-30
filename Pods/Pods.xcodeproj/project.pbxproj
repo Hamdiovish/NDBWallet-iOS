@@ -7,94 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D10F7D2CF8C5800B34F75566BE9B99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		26AFE981F57BE1887FD5EBAB45BE2CF0 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */; };
-		2EAA1FF5C43D74F4625BCE08B5BCD182 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0BC680A96E40826668429BD458F27D /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C6DB08119AC9DB086FCECD25D89B63B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		5C863788CA261E378F354889D87DFBDD /* Pods-pivxwallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A1B849F77603A453030FE400E73CA4 /* Pods-pivxwallet-dummy.m */; };
-		690A0D19F5E4F5C6055BEE90F24688D1 /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB21B13927C0FBF5B991E2B29373E209 /* SlideMenuControllerSwift-dummy.m */; };
-		9DCCE84C758336D211FAEE1D9E86ADC3 /* Pods-pivxwallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1A78CAD688148F7BACB6A2674233A6 /* Pods-pivxwallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAC3FEA344FF3A09E2E797D94905CE /* Pods-ndbwallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF19FFBB7828AA3D612DA7A91DE9732 /* Pods-ndbwallet-dummy.m */; };
+		36D065581FBF909FFF05706791410F62 /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB21B13927C0FBF5B991E2B29373E209 /* SlideMenuControllerSwift-dummy.m */; };
+		6942921981703BF0F609CD0FD7AB060B /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */; };
+		753845BD8EB91FBB6744BF95FD5D9716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B91ECE7C379F53760D3BAB891912FA17 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0BC680A96E40826668429BD458F27D /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64B5AF7DADF00706ABD33485B60A6C4 /* Pods-ndbwallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A71FCF4552936CC280B86AA62B91B4 /* Pods-ndbwallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECABC129A4DEC5E4F65E76D859BB624C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D1199598D2B4AFFA3CA963A4F85ED596 /* PBXContainerItemProxy */ = {
+		3472F28B4E4BECA3552941BA7EF938E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 946DD9414D8AD0AD076DC699712941A7;
+			remoteGlobalIDString = 744E0E1A3B59CDC6FD07DF2923A2693D;
 			remoteInfo = SlideMenuControllerSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011DBA5066D5F788E30899F515174702 /* Pods_ndbwallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ndbwallet.framework; path = "Pods-ndbwallet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0BC680A96E40826668429BD458F27D /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
 		0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
-		1C1A78CAD688148F7BACB6A2674233A6 /* Pods-pivxwallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pivxwallet-umbrella.h"; sourceTree = "<group>"; };
 		2D39FCF9B0B6CA34A1F9E4C8B8A93E4D /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
-		2DC831369A01B724486FBFFE4268181B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30A35F8C857A3FB34FDC6B353092C846 /* Pods-pivxwallet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pivxwallet-frameworks.sh"; sourceTree = "<group>"; };
+		311CFF59289980A87D10E11C8CF2519C /* Pods-ndbwallet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ndbwallet-frameworks.sh"; sourceTree = "<group>"; };
+		3F552E93E6643B46293B9F3BD762E78E /* Pods-ndbwallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ndbwallet.debug.xcconfig"; sourceTree = "<group>"; };
 		3FA7B792EFCA3A9C3003E19AB2DAC31A /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
-		447F78F9ED283CD64CE8222722166182 /* Pods-pivxwallet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pivxwallet-resources.sh"; sourceTree = "<group>"; };
-		51608C62A2D431710EFC6386AC3B9185 /* Pods-pivxwallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.debug.xcconfig"; sourceTree = "<group>"; };
+		445B2B451A9032CD894E8B386EC7EEDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4889BC9D8EDD430E0B9E8FD489296674 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		63CA869E3013B1F3A07704D105EA075B /* Pods-pivxwallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.testflight.xcconfig"; sourceTree = "<group>"; };
-		756E1AAC175051147CD7885BC038B2C1 /* Pods-pivxwallet.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.testnet.xcconfig"; sourceTree = "<group>"; };
+		734EE25621B6969E79F6991F6C6382D2 /* Pods-ndbwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ndbwallet.release.xcconfig"; sourceTree = "<group>"; };
 		8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
-		90A1B849F77603A453030FE400E73CA4 /* Pods-pivxwallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pivxwallet-dummy.m"; sourceTree = "<group>"; };
+		86A71FCF4552936CC280B86AA62B91B4 /* Pods-ndbwallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ndbwallet-umbrella.h"; sourceTree = "<group>"; };
+		8A3725899C1A653A3C5812B6DAF4C493 /* Pods-ndbwallet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ndbwallet-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B23FCE66D2024795C5A117E334273779 /* Pods-pivxwallet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pivxwallet-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1B93AB250630FD990BFDDA176A1A67C /* Pods-pivxwallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pivxwallet.modulemap"; sourceTree = "<group>"; };
-		C4FECC4A2C8EE2FFFD233E57558ED5A7 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF19FFBB7828AA3D612DA7A91DE9732 /* Pods-ndbwallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ndbwallet-dummy.m"; sourceTree = "<group>"; };
+		C075CF7D0B685D4D2FE380C47C9CD64B /* Pods-ndbwallet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ndbwallet-acknowledgements.plist"; sourceTree = "<group>"; };
 		C77B2CB002924CB555EF2F3E2E486A5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8BA70035724E8331C6EEBFA6DAE27C4 /* Pods-pivxwallet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pivxwallet-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC41629BE8169F95AEE085583E7B56A2 /* Pods-pivxwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.release.xcconfig"; sourceTree = "<group>"; };
+		C97C794B49D3A9F49304F82D66405C8F /* Pods-ndbwallet.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ndbwallet.testnet.xcconfig"; sourceTree = "<group>"; };
+		CEAAA095EF3C242CB8B67A4A70B84C4D /* Pods-ndbwallet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ndbwallet-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB21B13927C0FBF5B991E2B29373E209 /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
-		E432A899738D305F496689378A31D043 /* Pods_pivxwallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pivxwallet.framework; path = "Pods-pivxwallet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF5ED9962F8D08A370BCE28C582F4B4 /* Pods-ndbwallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ndbwallet.testflight.xcconfig"; sourceTree = "<group>"; };
+		EA9EA22C5B02896B56EC9F2085568DA6 /* Pods-ndbwallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ndbwallet.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44FB2D8011025BDD2280664BEC7A074E /* Frameworks */ = {
+		08FD6A28730DBFB8F8146668C50F788E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6DB08119AC9DB086FCECD25D89B63B /* Foundation.framework in Frameworks */,
+				753845BD8EB91FBB6744BF95FD5D9716 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ECD111B583F6563D3D31E3608572946 /* Frameworks */ = {
+		783BC98DAA004168B0C941DF3BEC54B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D10F7D2CF8C5800B34F75566BE9B99B /* Foundation.framework in Frameworks */,
+				ECABC129A4DEC5E4F65E76D859BB624C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EA69F4FDAF5ED393E3C951BCC4ED792 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E432A899738D305F496689378A31D043 /* Pods_pivxwallet.framework */,
-				C4FECC4A2C8EE2FFFD233E57558ED5A7 /* SlideMenuControllerSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		38110F518FECDBFBD28D0553820CDD24 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4A3C28E4604F13A712D64880492AFAB /* Pods-pivxwallet */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		673445CAFFCEF7E3FCDFCEC7B1EE2907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011DBA5066D5F788E30899F515174702 /* Pods_ndbwallet.framework */,
+				4889BC9D8EDD430E0B9E8FD489296674 /* SlideMenuControllerSwift.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		790C6657361277EA4001655A408366B9 /* SlideMenuControllerSwift */ = {
@@ -113,9 +105,29 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CA428321F8257CD374B594CA29A4C7DF /* Pods */,
-				2EA69F4FDAF5ED393E3C951BCC4ED792 /* Products */,
-				38110F518FECDBFBD28D0553820CDD24 /* Targets Support Files */,
+				673445CAFFCEF7E3FCDFCEC7B1EE2907 /* Products */,
+				CB0C50F289C5202DA9E31B95E3D63EA5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9955C82B19F3580278A071BA80FD5CF0 /* Pods-ndbwallet */ = {
+			isa = PBXGroup;
+			children = (
+				445B2B451A9032CD894E8B386EC7EEDF /* Info.plist */,
+				EA9EA22C5B02896B56EC9F2085568DA6 /* Pods-ndbwallet.modulemap */,
+				CEAAA095EF3C242CB8B67A4A70B84C4D /* Pods-ndbwallet-acknowledgements.markdown */,
+				C075CF7D0B685D4D2FE380C47C9CD64B /* Pods-ndbwallet-acknowledgements.plist */,
+				9FF19FFBB7828AA3D612DA7A91DE9732 /* Pods-ndbwallet-dummy.m */,
+				311CFF59289980A87D10E11C8CF2519C /* Pods-ndbwallet-frameworks.sh */,
+				8A3725899C1A653A3C5812B6DAF4C493 /* Pods-ndbwallet-resources.sh */,
+				86A71FCF4552936CC280B86AA62B91B4 /* Pods-ndbwallet-umbrella.h */,
+				3F552E93E6643B46293B9F3BD762E78E /* Pods-ndbwallet.debug.xcconfig */,
+				734EE25621B6969E79F6991F6C6382D2 /* Pods-ndbwallet.release.xcconfig */,
+				DDF5ED9962F8D08A370BCE28C582F4B4 /* Pods-ndbwallet.testflight.xcconfig */,
+				C97C794B49D3A9F49304F82D66405C8F /* Pods-ndbwallet.testnet.xcconfig */,
+			);
+			name = "Pods-ndbwallet";
+			path = "Target Support Files/Pods-ndbwallet";
 			sourceTree = "<group>";
 		};
 		A601CEFAF205499F31980ED7ECC4B9F6 /* Support Files */ = {
@@ -148,75 +160,63 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F4A3C28E4604F13A712D64880492AFAB /* Pods-pivxwallet */ = {
+		CB0C50F289C5202DA9E31B95E3D63EA5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2DC831369A01B724486FBFFE4268181B /* Info.plist */,
-				C1B93AB250630FD990BFDDA176A1A67C /* Pods-pivxwallet.modulemap */,
-				C8BA70035724E8331C6EEBFA6DAE27C4 /* Pods-pivxwallet-acknowledgements.markdown */,
-				B23FCE66D2024795C5A117E334273779 /* Pods-pivxwallet-acknowledgements.plist */,
-				90A1B849F77603A453030FE400E73CA4 /* Pods-pivxwallet-dummy.m */,
-				30A35F8C857A3FB34FDC6B353092C846 /* Pods-pivxwallet-frameworks.sh */,
-				447F78F9ED283CD64CE8222722166182 /* Pods-pivxwallet-resources.sh */,
-				1C1A78CAD688148F7BACB6A2674233A6 /* Pods-pivxwallet-umbrella.h */,
-				51608C62A2D431710EFC6386AC3B9185 /* Pods-pivxwallet.debug.xcconfig */,
-				CC41629BE8169F95AEE085583E7B56A2 /* Pods-pivxwallet.release.xcconfig */,
-				63CA869E3013B1F3A07704D105EA075B /* Pods-pivxwallet.testflight.xcconfig */,
-				756E1AAC175051147CD7885BC038B2C1 /* Pods-pivxwallet.testnet.xcconfig */,
+				9955C82B19F3580278A071BA80FD5CF0 /* Pods-ndbwallet */,
 			);
-			name = "Pods-pivxwallet";
-			path = "Target Support Files/Pods-pivxwallet";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18CDE55E5526E61E80691D5D61D7E91C /* Headers */ = {
+		B2E9824F2C24CCAA64974C1E03F4EFCE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DCCE84C758336D211FAEE1D9E86ADC3 /* Pods-pivxwallet-umbrella.h in Headers */,
+				C64B5AF7DADF00706ABD33485B60A6C4 /* Pods-ndbwallet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		871E2C97BAEB61F86F1C742753054078 /* Headers */ = {
+		F1A77EAC244181864BFB588C5F23731D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EAA1FF5C43D74F4625BCE08B5BCD182 /* SlideMenuControllerSwift-umbrella.h in Headers */,
+				B91ECE7C379F53760D3BAB891912FA17 /* SlideMenuControllerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7CE0D98E5B23B5AB60B8F31568535273 /* Pods-pivxwallet */ = {
+		6C5D39FA0255585700F6D354179A5533 /* Pods-ndbwallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 955905CD1A26A1C3EA4985404564F290 /* Build configuration list for PBXNativeTarget "Pods-pivxwallet" */;
+			buildConfigurationList = 1D3D418C56ED0D884DBC85DB46D065C0 /* Build configuration list for PBXNativeTarget "Pods-ndbwallet" */;
 			buildPhases = (
-				18CDE55E5526E61E80691D5D61D7E91C /* Headers */,
-				74ADF5AC5D0005AE4677E7B288989D6B /* Sources */,
-				44FB2D8011025BDD2280664BEC7A074E /* Frameworks */,
-				DD390E7BBBBDE52A460821FCB4D292B9 /* Resources */,
+				B2E9824F2C24CCAA64974C1E03F4EFCE /* Headers */,
+				5408BD5A1621E95A350FE5DC3D34F30E /* Sources */,
+				08FD6A28730DBFB8F8146668C50F788E /* Frameworks */,
+				503F35CF7F3FD0561BF414BA55181759 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				083A9FC6B361629A3F26E0A26B766B46 /* PBXTargetDependency */,
+				752B51F9AA4120CE59316DD4103F2BE6 /* PBXTargetDependency */,
 			);
-			name = "Pods-pivxwallet";
-			productName = "Pods-pivxwallet";
-			productReference = E432A899738D305F496689378A31D043 /* Pods_pivxwallet.framework */;
+			name = "Pods-ndbwallet";
+			productName = "Pods-ndbwallet";
+			productReference = 011DBA5066D5F788E30899F515174702 /* Pods_ndbwallet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		946DD9414D8AD0AD076DC699712941A7 /* SlideMenuControllerSwift */ = {
+		744E0E1A3B59CDC6FD07DF2923A2693D /* SlideMenuControllerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B772580A15BB008844855A77919AB08 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
+			buildConfigurationList = 7E8B0D9B3313C00D9AC537C1F7697C40 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
 			buildPhases = (
-				871E2C97BAEB61F86F1C742753054078 /* Headers */,
-				DB199523A91F204CD0BA28E6D8833D66 /* Sources */,
-				6ECD111B583F6563D3D31E3608572946 /* Frameworks */,
-				205AE43465E98DB3D57E40036939E9A9 /* Resources */,
+				F1A77EAC244181864BFB588C5F23731D /* Headers */,
+				DE71DE283B146B943E0B6350DEE61A6D /* Sources */,
+				783BC98DAA004168B0C941DF3BEC54B8 /* Frameworks */,
+				B3EAC2BCBA57BE12AAD02C0650302477 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +224,7 @@
 			);
 			name = SlideMenuControllerSwift;
 			productName = SlideMenuControllerSwift;
-			productReference = C4FECC4A2C8EE2FFFD233E57558ED5A7 /* SlideMenuControllerSwift.framework */;
+			productReference = 4889BC9D8EDD430E0B9E8FD489296674 /* SlideMenuControllerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -244,25 +244,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2EA69F4FDAF5ED393E3C951BCC4ED792 /* Products */;
+			productRefGroup = 673445CAFFCEF7E3FCDFCEC7B1EE2907 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CE0D98E5B23B5AB60B8F31568535273 /* Pods-pivxwallet */,
-				946DD9414D8AD0AD076DC699712941A7 /* SlideMenuControllerSwift */,
+				6C5D39FA0255585700F6D354179A5533 /* Pods-ndbwallet */,
+				744E0E1A3B59CDC6FD07DF2923A2693D /* SlideMenuControllerSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		205AE43465E98DB3D57E40036939E9A9 /* Resources */ = {
+		503F35CF7F3FD0561BF414BA55181759 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD390E7BBBBDE52A460821FCB4D292B9 /* Resources */ = {
+		B3EAC2BCBA57BE12AAD02C0650302477 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,31 +272,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		74ADF5AC5D0005AE4677E7B288989D6B /* Sources */ = {
+		5408BD5A1621E95A350FE5DC3D34F30E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C863788CA261E378F354889D87DFBDD /* Pods-pivxwallet-dummy.m in Sources */,
+				0DBAC3FEA344FF3A09E2E797D94905CE /* Pods-ndbwallet-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB199523A91F204CD0BA28E6D8833D66 /* Sources */ = {
+		DE71DE283B146B943E0B6350DEE61A6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26AFE981F57BE1887FD5EBAB45BE2CF0 /* SlideMenuController.swift in Sources */,
-				690A0D19F5E4F5C6055BEE90F24688D1 /* SlideMenuControllerSwift-dummy.m in Sources */,
+				6942921981703BF0F609CD0FD7AB060B /* SlideMenuController.swift in Sources */,
+				36D065581FBF909FFF05706791410F62 /* SlideMenuControllerSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		083A9FC6B361629A3F26E0A26B766B46 /* PBXTargetDependency */ = {
+		752B51F9AA4120CE59316DD4103F2BE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SlideMenuControllerSwift;
-			target = 946DD9414D8AD0AD076DC699712941A7 /* SlideMenuControllerSwift */;
-			targetProxy = D1199598D2B4AFFA3CA963A4F85ED596 /* PBXContainerItemProxy */;
+			target = 744E0E1A3B59CDC6FD07DF2923A2693D /* SlideMenuControllerSwift */;
+			targetProxy = 3472F28B4E4BECA3552941BA7EF938E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -360,9 +360,43 @@
 			};
 			name = Testflight;
 		};
-		100C74792F176750DB05091A07C9ACD8 /* Testnet */ = {
+		72AC3A3C4B3DBA315BBDDE11C5703AE4 /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 756E1AAC175051147CD7885BC038B2C1 /* Pods-pivxwallet.testnet.xcconfig */;
+			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Testnet;
+		};
+		848D2B8DFF9FE48DE03AD440797B95AD /* Testnet */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97C794B49D3A9F49304F82D66405C8F /* Pods-ndbwallet.testnet.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -375,12 +409,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ndbwallet/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ndbwallet/Pods-ndbwallet.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -397,77 +431,9 @@
 			};
 			name = Testnet;
 		};
-		6FA4AA18005C62ACCEC8B37C1C60B76A /* Testflight */ = {
+		A2AB6F816D3058B9C84003BC6941A949 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Testflight;
-		};
-		8DBD140E2F2F731518AC03C527602B72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98E20360644AD6D1CBF0C238CEEE5249 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51608C62A2D431710EFC6386AC3B9185 /* Pods-pivxwallet.debug.xcconfig */;
+			baseConfigurationReference = 734EE25621B6969E79F6991F6C6382D2 /* Pods-ndbwallet.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -480,12 +446,118 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ndbwallet/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ndbwallet/Pods-ndbwallet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B096D256ED8FF33DD94710A712434284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B38D1F6B267D3FA2820D28F1E9A11C0D /* Testflight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF5ED9962F8D08A370BCE28C582F4B4 /* Pods-ndbwallet.testflight.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ndbwallet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ndbwallet/Pods-ndbwallet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Testflight;
+		};
+		C7CD736CFD49CEB7500A38DA5007452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F552E93E6643B46293B9F3BD762E78E /* Pods-ndbwallet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ndbwallet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ndbwallet/Pods-ndbwallet.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -500,77 +572,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		99D67FFFA325A188F01A8F4C9A6EC71E /* Testnet */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Testnet;
-		};
-		BE950513E11A67BD374808009A427ECC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC41629BE8169F95AEE085583E7B56A2 /* Pods-pivxwallet.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -636,6 +637,40 @@
 			};
 			name = Debug;
 		};
+		DA9D9F6191317BBE6888DB62B83E4F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -695,12 +730,10 @@
 			};
 			name = Release;
 		};
-		EB30036172AD303051030668FFE2A288 /* Testflight */ = {
+		EDF026F428BBEA5BC8AF1F4DBDC3F965 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63CA869E3013B1F3A07704D105EA075B /* Pods-pivxwallet.testflight.xcconfig */;
+			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -710,21 +743,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
+				PRODUCT_NAME = SlideMenuControllerSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -791,41 +823,20 @@
 			};
 			name = Testnet;
 		};
-		FA31BEE1C4B5A8B1C2F6A12C5EAD9AC5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D3D418C56ED0D884DBC85DB46D065C0 /* Build configuration list for PBXNativeTarget "Pods-ndbwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CD736CFD49CEB7500A38DA5007452B /* Debug */,
+				A2AB6F816D3058B9C84003BC6941A949 /* Release */,
+				B38D1F6B267D3FA2820D28F1E9A11C0D /* Testflight */,
+				848D2B8DFF9FE48DE03AD440797B95AD /* Testnet */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -837,24 +848,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B772580A15BB008844855A77919AB08 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
+		7E8B0D9B3313C00D9AC537C1F7697C40 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA31BEE1C4B5A8B1C2F6A12C5EAD9AC5 /* Debug */,
-				8DBD140E2F2F731518AC03C527602B72 /* Release */,
-				6FA4AA18005C62ACCEC8B37C1C60B76A /* Testflight */,
-				99D67FFFA325A188F01A8F4C9A6EC71E /* Testnet */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		955905CD1A26A1C3EA4985404564F290 /* Build configuration list for PBXNativeTarget "Pods-pivxwallet" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98E20360644AD6D1CBF0C238CEEE5249 /* Debug */,
-				BE950513E11A67BD374808009A427ECC /* Release */,
-				EB30036172AD303051030668FFE2A288 /* Testflight */,
-				100C74792F176750DB05091A07C9ACD8 /* Testnet */,
+				B096D256ED8FF33DD94710A712434284 /* Debug */,
+				DA9D9F6191317BBE6888DB62B83E4F21 /* Release */,
+				EDF026F428BBEA5BC8AF1F4DBDC3F965 /* Testflight */,
+				72AC3A3C4B3DBA315BBDDE11C5703AE4 /* Testnet */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
