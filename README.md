@@ -1,7 +1,5 @@
 # Nodebase Wallet
 ----------------------------------
-#![alt text](https://github.com/NODEBASE-Project/NODEBASE-Android/blob/master/banner/Feature%20Image.jpg)
-
 
 ##### The first standalone iOS NODEBASE wallet:
 
@@ -51,7 +49,7 @@ the following will ask the user to authorize copying a list of their wallet
 addresses to the clipbaord before calling back:
 
 ```
-bread://x-callback-url/addresslist?x-success=myscheme://myaction
+nodebase://x-callback-url/addresslist?x-success=myscheme://myaction
 ```
 
 ##### WARNING:
@@ -64,4 +62,4 @@ and including `<key>application-identifier</key><string>*</string>` in its
 .entitlements file.
 
 NODEBASE wallet is open source and available under the terms of the MIT license.
-Source code is available at https://github.com/voisine/breadwallet
+Source code is available at https://github.com/Hamdiovish/NDBWallet-iOS
