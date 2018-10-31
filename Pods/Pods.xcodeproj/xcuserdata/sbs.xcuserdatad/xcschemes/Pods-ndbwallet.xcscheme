@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7CE0D98E5B23B5AB60B8F31568535273"
-               BuildableName = "Pods_pivxwallet.framework"
-               BlueprintName = "Pods-pivxwallet"
+               BlueprintIdentifier = "6C5D39FA0255585700F6D354179A5533"
+               BuildableName = "Pods_ndbwallet.framework"
+               BlueprintName = "Pods-ndbwallet"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7CE0D98E5B23B5AB60B8F31568535273"
-            BuildableName = "Pods_pivxwallet.framework"
-            BlueprintName = "Pods-pivxwallet"
+            BlueprintIdentifier = "6C5D39FA0255585700F6D354179A5533"
+            BuildableName = "Pods_ndbwallet.framework"
+            BlueprintName = "Pods-ndbwallet"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

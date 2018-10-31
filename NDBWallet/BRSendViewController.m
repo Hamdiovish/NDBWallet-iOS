@@ -550,12 +550,12 @@ static NSString *sanitizeString(NSString *s)
     }
     
     //TODO: check for duplicates of already paid requests
-    
     if (self.amount == 0) {
         for (NSNumber *outputAmount in protoReq.details.outputAmounts) {
             if (outputAmount.unsignedLongLongValue > 0 && outputAmount.unsignedLongLongValue < TX_MIN_OUTPUT_AMOUNT) {
                 outputTooSmall = YES;
             }
+            //<HBS>
             amount += outputAmount.unsignedLongLongValue;
         }
     }
@@ -664,6 +664,7 @@ static NSString *sanitizeString(NSString *s)
             return;
             
         } else if (amount > manager.wallet.balance && amount != UINT64_MAX) {
+            NSLog(@">>AMOUNT:%llu - %llu",amount,manager.wallet.balance);
             UIAlertController * alert = [UIAlertController
                                          alertControllerWithTitle:NSLocalizedString(@"insufficient funds", nil)
                                          message:nil

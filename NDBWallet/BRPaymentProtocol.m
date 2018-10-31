@@ -248,7 +248,9 @@ time:(NSTimeInterval)time expires:(NSTimeInterval)expires memo:(NSString *)memo 
 
 - (NSArray *)outputAmounts
 {
-    if (! [_outputAmounts containsObject:@(UINT64_MAX)]) return _outputAmounts;
+    if (! [_outputAmounts containsObject:@(UINT64_MAX)]) {
+        return _outputAmounts;
+    }
 
     NSMutableArray *amounts = [NSMutableArray arrayWithArray:_outputAmounts];
     
