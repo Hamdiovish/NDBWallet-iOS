@@ -164,7 +164,7 @@
 
    return [NSString stringWithFormat:NSLocalizedString(@"rate: %@ = %@\nupdated: %@\nblock #%d of %d\n"
                                                        "connected peers: %d\ndl peer: %@", NULL),
-           @"1 PIVX",
+           @"1 NDB",
            [manager localCurrencyStringForDashAmount:DUFFS],
            [fmt stringFromDate:[NSDate dateWithTimeIntervalSinceReferenceDate:manager.secureTime]].lowercaseString,
            [BRPeerManager sharedInstance].lastBlockHeight,
@@ -185,7 +185,7 @@
 
 - (IBAction)about:(id)sender
 {
-    SFSafariViewController * safariViewController = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://www.dash.org/forum/topic/ios-dash-digital-wallet-support.112/"]];
+    SFSafariViewController * safariViewController = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://github.com/NodeBaseCore/NDBWallet-iOS"]];
     [self presentViewController:safariViewController animated:YES completion:nil];
 }
 

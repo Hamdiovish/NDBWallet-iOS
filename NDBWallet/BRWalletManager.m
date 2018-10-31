@@ -53,6 +53,7 @@
 // PIVX is not in Poloniex yet ;P
 //#define POLONIEX_TICKER_URL  @"https://poloniex.com/public?command=returnOrderBook&currencyPair=BTC_PIVX&depth=1"
 #define COINMARKETCAP_TICKER_URL @"https://api.coinmarketcap.com/v1/ticker/pivx/"
+#define CB_TICKER_URL @"https://api.crypto-bridge.org/api/v1/ticker"
 #define TICKER_REFRESH_TIME 60.0
 
 #define SEED_ENTROPY_LENGTH   (256/8)
@@ -299,7 +300,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     self.unknownFormat.negativeFormat = [self.unknownFormat.positiveFormat
                                          stringByReplacingCharactersInRange:[self.unknownFormat.positiveFormat rangeOfString:@"#"]
                                          withString:@"-#"];
-    self.unknownFormat.maximumFractionDigits = 8;
+    self.unknownFormat.maximumFractionDigits = 6;
     self.unknownFormat.minimumFractionDigits = 0; // iOS 8 bug, minimumFractionDigits now has to be set after currencySymbol
     
     _localFormat = [NSNumberFormatter new];
@@ -307,6 +308,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     self.localFormat.numberStyle = NSNumberFormatterCurrencyStyle;
     self.localFormat.generatesDecimalNumbers = YES;
     self.localFormat.negativeFormat = self.dashFormat.negativeFormat;
+    
     
     self.protectedObserver =
     [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationProtectedDataDidBecomeAvailable object:nil
@@ -1276,6 +1278,57 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     if (self.reachability.currentReachabilityStatus == NotReachable) return;
     
     
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:CB_TICKER_URL]
+                                         cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:60.0];
+    
+    [[[NSURLSession sharedSession] dataTaskWithRequest:req
+                                     completionHandler:^(NSData *data, NSURLResponse *response, NSError *connectionError) {
+                                         if (((((NSHTTPURLResponse*)response).statusCode /100) != 2) || connectionError) {
+                                             NSLog(@"connectionError %@ (status %ld)", connectionError,(long)((NSHTTPURLResponse*)response).statusCode);
+                                             return;
+                                         }
+                                         if ([response isKindOfClass:[NSHTTPURLResponse class]]) { // store server timestamp
+                                             NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
+                                             NSString *date = [(NSHTTPURLResponse *)response allHeaderFields][@"Date"];
+                                             NSTimeInterval now = [[[NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeDate error:nil]
+                                                                    matchesInString:date options:0 range:NSMakeRange(0, date.length)].lastObject
+                                                                   date].timeIntervalSinceReferenceDate;
+                                             
+                                             if (now > self.secureTime) [defs setDouble:now forKey:SECURE_TIME_KEY];
+                                         }
+                                         NSError *error = nil;
+                                         NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
+                                         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"id == 'NDB_BTC'"];
+                                         NSArray *filteredArray = [json filteredArrayUsingPredicate:predicate];
+
+                                         NSDictionary* jsonData = filteredArray.firstObject;
+                                         NSString * lastPrice = [jsonData objectForKey:@"last"];
+                                         NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+                                         NSLocale *usa = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US"];
+                                         numberFormatter.locale = usa;
+                                         numberFormatter.numberStyle = NSNumberFormatterDecimalStyle;
+                                         NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
+                                         NSNumber *lastTradePriceNumber = [numberFormatter numberFromString:lastPrice];
+                                         [defs setObject:lastTradePriceNumber forKey:POLONIEX_DASH_BTC_PRICE_KEY];
+                                         [defs setObject:[NSDate date] forKey:POLONIEX_DASH_BTC_UPDATE_TIME_KEY];
+                                         [defs synchronize];
+                                         [self refreshBitcoinDashPrice];
+#if EXCHANGE_RATES_LOGGING
+                                         NSLog(@"CB exchange rate updated to %@/%@", [self localCurrencyStringForDashAmount:DUFFS],
+                                               [self stringForDashAmount:DUFFS]);
+#endif
+                                     }
+      ] resume];
+    
+}
+
+- (void)updatePivxExchangeRate
+{
+    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updatePivxExchangeRate) object:nil];
+    [self performSelector:@selector(updatePivxExchangeRate) withObject:nil afterDelay:TICKER_REFRESH_TIME];
+    if (self.reachability.currentReachabilityStatus == NotReachable) return;
+    
+    
     NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:COINMARKETCAP_TICKER_URL]
                                          cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30.0];
     
@@ -1316,6 +1369,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
       ] resume];
     
 }
+
 
 - (void)updateBitcoinExchangeRate
 {
@@ -1782,7 +1836,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     
     NSNumber * local = [NSNumber numberWithDouble:self.localCurrencyBitcoinPrice.doubleValue*self.bitcoinDashPrice.doubleValue];
     
-    
+    //<HBS>
     NSDecimalNumber *n = [[[NSDecimalNumber decimalNumberWithDecimal:local.decimalValue]
                            decimalNumberByMultiplyingBy:(id)[NSDecimalNumber numberWithLongLong:llabs(amount)]]
                           decimalNumberByDividingBy:(id)[NSDecimalNumber numberWithLongLong:DUFFS]],

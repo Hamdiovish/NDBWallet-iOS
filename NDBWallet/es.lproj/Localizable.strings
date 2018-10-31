@@ -370,7 +370,7 @@
 "please enter pin to upgrade wallet" = "por favor ingresa tu pin para actualizar el monedero";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "tarifa: %@ = %@\nactualizado: %@\nbloque #%d of %d\npares conectados: %d\npares dl: %@";
+"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "\ntarifa: %@ = %@\nactualizado: %@\nbloque #%d of %d\npares conectados: %d\npares dl: %@";
 
 /* No comment provided by engineer. */
 "Receive PIVX at this address: %@" = "Recibe PIVX en esta dirección: %@";
