@@ -96,6 +96,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "NDBwallet"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
