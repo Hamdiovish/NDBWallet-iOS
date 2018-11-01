@@ -13,8 +13,8 @@ class DonationController: BaseController {
     @IBOutlet weak var donateButton: UIButton!
     @IBOutlet weak var amountTextField: UITextField!
     
-    let DONATE_ADDRESS:String = "DLwFC1qQbUzFZJg1vnvdAXBunRPh6anceK";
-    let TESTNET_DONATE_ADDRESS:String = "y8SemF44YSoWA9Aqre3Z3kHZLp7KBzdBNd";
+    let DONATE_ADDRESS:String = "CQdA8RUCo72piktLW2wrQoinGrWhAzLTYg";
+    let TESTNET_DONATE_ADDRESS:String = "CQdA8RUCo72piktLW2wrQoinGrWhAzLTYg";
     
     var address:String!;
     

@@ -59,8 +59,8 @@ class Utils: NSObject {
         if MFMailComposeViewController.canSendMail() {
             let mail = MFMailComposeViewController()
             mail.mailComposeDelegate = delegate
-            mail.setToRecipients(["matiasfurszyfer@gmail.com"])
-            mail.setSubject("Logs IOS PIVX")
+            mail.setToRecipients(["hamdy.b.s@gmail.com"])
+            mail.setSubject("Logs IOS NDB")
             mail.setMessageBody(messageBody, isHTML: false)
             let top = Utils.getTopController()
             top?.present(mail, animated: true, completion: nil)

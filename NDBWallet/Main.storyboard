@@ -701,7 +701,7 @@
                             <rect key="frame" x="160" y="14.666666666666664" width="94" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imgHeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Upd-gS-ln6">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="imgHeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Upd-gS-ln6">
                                     <rect key="frame" x="0.0" y="0.0" width="94" height="15"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -786,7 +786,7 @@
                                     <action selector="address:" destination="XLw-gP-lYw" eventType="touchUpInside" id="eU0-6G-fFI"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgRecieve" translatesAutoresizingMaskIntoConstraints="NO" id="hIf-VN-Is4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgRecieve" translatesAutoresizingMaskIntoConstraints="NO" id="hIf-VN-Is4">
                                 <rect key="frame" x="157" y="150" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="03n-l8-EU8"/>
@@ -888,8 +888,8 @@
                                     <constraint firstAttribute="height" constant="40" id="vaw-Gz-1AR"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEND NDB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5l-JR-LKA">
-                                <rect key="frame" x="162.33333333333334" y="154" width="89.333333333333343" height="45"/>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send NDB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5l-JR-LKA">
+                                <rect key="frame" x="165.33333333333334" y="154" width="83.333333333333343" height="45"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="TC5-Ce-4Ic"/>
@@ -987,7 +987,7 @@
                                     <action selector="enableInstantX:" destination="RsQ-W7-grB" eventType="valueChanged" id="k8Q-dV-O71"/>
                                 </connections>
                             </switch>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSend" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-j7-v3L">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSend" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-j7-v3L">
                                 <rect key="frame" x="157" y="223" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="CFi-QK-5cn"/>
@@ -1115,9 +1115,8 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fT-s3-WCA">
-                                <rect key="frame" x="16" y="322" width="382" height="92"/>
-                                <string key="text">PIVX (Private, Instant, Verified, Transactions)
-is a privacy-focused, decentralized, open source cryptocurrency run by
+                                <rect key="frame" x="16" y="331.33333333333331" width="382" height="73.666666666666686"/>
+                                <string key="text">NODEBASE is a privacy-focused, decentralized, open source cryptocurrency run by
 a global community comprised of creators, innovators, and technology enthusiasts.</string>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2655,11 +2654,11 @@ Other devices may be infected.
                                 <action selector="done:" destination="La8-tY-sM4" id="K1J-SJ-t90"/>
                             </connections>
                         </barButtonItem>
-                        <view key="titleView" contentMode="scaleToFill" id="e9l-yt-iYP">
+                        <view key="titleView" contentMode="scaleAspectFit" id="e9l-yt-iYP">
                             <rect key="frame" x="160" y="14.666666666666664" width="94" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imgHeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gVu-js-UxD">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="imgHeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gVu-js-UxD">
                                     <rect key="frame" x="0.0" y="0.0" width="94" height="15"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
