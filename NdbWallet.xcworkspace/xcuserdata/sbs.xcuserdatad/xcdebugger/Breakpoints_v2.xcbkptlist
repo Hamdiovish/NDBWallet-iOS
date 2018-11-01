@@ -362,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.526853"
+            timestampString = "562781152.3466851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1885"
-            endingLineNumber = "1885"
+            startingLineNumber = "1883"
+            endingLineNumber = "1883"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -378,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5269459"
+            timestampString = "562781152.34677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1884"
-            endingLineNumber = "1884"
+            startingLineNumber = "1882"
+            endingLineNumber = "1882"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527"
+            timestampString = "562781152.346835"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1891"
-            endingLineNumber = "1891"
+            startingLineNumber = "1889"
+            endingLineNumber = "1889"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -410,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.52705"
+            timestampString = "562781152.346897"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1892"
-            endingLineNumber = "1892"
+            startingLineNumber = "1890"
+            endingLineNumber = "1890"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -426,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527099"
+            timestampString = "562781152.346959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1929"
-            endingLineNumber = "1929"
+            startingLineNumber = "1927"
+            endingLineNumber = "1927"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
             <Locations>
@@ -489,7 +489,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527146"
+            timestampString = "562781152.347019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1929"
+            endingLineNumber = "1929"
+            landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NDBWallet/BRSendViewController.m"
+            timestampString = "562781152.34708"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1931"
@@ -505,11 +521,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527204"
+            timestampString = "562781152.347142"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1933"
-            endingLineNumber = "1933"
+            startingLineNumber = "1932"
+            endingLineNumber = "1932"
             landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -521,7 +537,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527247"
+            timestampString = "562781152.347203"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1934"
@@ -533,31 +549,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527289"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1936"
-            endingLineNumber = "1936"
-            landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527338"
+            timestampString = "562781152.347262"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "473"
-            endingLineNumber = "473"
+            startingLineNumber = "471"
+            endingLineNumber = "471"
             landmarkName = "-confirmRequest:"
             landmarkType = "7">
          </BreakpointContent>
@@ -569,11 +569,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5273809"
+            timestampString = "562781152.347322"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "474"
-            endingLineNumber = "474"
+            startingLineNumber = "472"
+            endingLineNumber = "472"
             landmarkName = "-confirmRequest:"
             landmarkType = "7">
          </BreakpointContent>
@@ -585,11 +585,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5274301"
+            timestampString = "562781152.347387"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "493"
-            endingLineNumber = "493"
+            startingLineNumber = "491"
+            endingLineNumber = "491"
             landmarkName = "-confirmRequest:"
             landmarkType = "7">
          </BreakpointContent>
@@ -601,11 +601,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527473"
+            timestampString = "562781152.347443"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "517"
-            endingLineNumber = "517"
+            startingLineNumber = "515"
+            endingLineNumber = "515"
             landmarkName = "-confirmRequest:"
             landmarkType = "7">
          </BreakpointContent>
@@ -617,11 +617,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5275331"
+            timestampString = "562781152.347499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "537"
-            endingLineNumber = "537"
+            startingLineNumber = "535"
+            endingLineNumber = "535"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -633,11 +633,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527577"
+            timestampString = "562781152.347556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "554"
-            endingLineNumber = "554"
+            startingLineNumber = "552"
+            endingLineNumber = "552"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
             <Locations>
@@ -681,11 +681,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.52762"
+            timestampString = "562781152.347612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "565"
-            endingLineNumber = "565"
+            startingLineNumber = "563"
+            endingLineNumber = "563"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -697,11 +697,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527662"
+            timestampString = "562781152.3476681"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "583"
-            endingLineNumber = "583"
+            startingLineNumber = "581"
+            endingLineNumber = "581"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -713,11 +713,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527703"
+            timestampString = "562781152.347724"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "610"
-            endingLineNumber = "610"
+            startingLineNumber = "608"
+            endingLineNumber = "608"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -729,11 +729,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527745"
+            timestampString = "562781152.34778"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "668"
-            endingLineNumber = "668"
+            startingLineNumber = "666"
+            endingLineNumber = "666"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -745,11 +745,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527786"
+            timestampString = "562781152.3478349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "683"
-            endingLineNumber = "683"
+            startingLineNumber = "681"
+            endingLineNumber = "681"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -761,11 +761,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5278291"
+            timestampString = "562781152.34789"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "734"
-            endingLineNumber = "734"
+            startingLineNumber = "732"
+            endingLineNumber = "732"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -777,11 +777,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5278701"
+            timestampString = "562781152.347945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "766"
-            endingLineNumber = "766"
+            startingLineNumber = "764"
+            endingLineNumber = "764"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -793,11 +793,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5279109"
+            timestampString = "562781152.347999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "785"
-            endingLineNumber = "785"
+            startingLineNumber = "783"
+            endingLineNumber = "783"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -809,11 +809,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.527958"
+            timestampString = "562781152.3480541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "804"
-            endingLineNumber = "804"
+            startingLineNumber = "802"
+            endingLineNumber = "802"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -825,11 +825,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5280041"
+            timestampString = "562781152.34811"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "877"
-            endingLineNumber = "877"
+            startingLineNumber = "875"
+            endingLineNumber = "875"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -841,11 +841,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.528048"
+            timestampString = "562781152.348165"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "950"
-            endingLineNumber = "950"
+            startingLineNumber = "948"
+            endingLineNumber = "948"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -857,23 +857,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5280941"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "564"
-            endingLineNumber = "564"
-            landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.528138"
+            timestampString = "562781152.3482209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "562"
@@ -889,11 +873,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.528196"
+            timestampString = "562781152.3482749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "559"
-            endingLineNumber = "559"
+            startingLineNumber = "560"
+            endingLineNumber = "560"
+            landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NDBWallet/BRSendViewController.m"
+            timestampString = "562781152.348328"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "557"
+            endingLineNumber = "557"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -905,7 +905,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRPaymentProtocol.m"
-            timestampString = "562777646.528266"
+            timestampString = "562781152.3483829"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "251"
@@ -921,7 +921,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRPaymentProtocol.m"
-            timestampString = "562777646.528325"
+            timestampString = "562781152.348428"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "261"
@@ -937,7 +937,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRPaymentProtocol.m"
-            timestampString = "562777646.528363"
+            timestampString = "562781152.348472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "252"
@@ -953,11 +953,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.528407"
+            timestampString = "562781152.348514"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "555"
-            endingLineNumber = "555"
+            startingLineNumber = "553"
+            endingLineNumber = "553"
             landmarkName = "-confirmProtocolRequest:currency:associatedShapeshift:wantsInstant:requiresInstantValue:"
             landmarkType = "7">
          </BreakpointContent>
@@ -969,7 +969,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528468"
+            timestampString = "562781152.34857"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1299"
@@ -985,7 +985,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528515"
+            timestampString = "562781152.348622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1304"
@@ -1001,7 +1001,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528561"
+            timestampString = "562781152.348671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1306"
@@ -1065,7 +1065,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528713"
+            timestampString = "562781152.348773"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1834"
@@ -1081,7 +1081,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528752"
+            timestampString = "562781152.348819"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1835"
@@ -1097,7 +1097,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528791"
+            timestampString = "562781152.348865"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1836"
@@ -1113,7 +1113,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528827"
+            timestampString = "562781152.34891"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1840"
@@ -1129,7 +1129,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528878"
+            timestampString = "562781152.348955"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1843"
@@ -1145,7 +1145,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528914"
+            timestampString = "562781152.349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1847"
@@ -1161,7 +1161,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528952"
+            timestampString = "562781152.349044"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1848"
@@ -1177,7 +1177,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRWalletManager.m"
-            timestampString = "562777646.528988"
+            timestampString = "562781152.349089"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1849"
@@ -1193,7 +1193,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/PivxUtils/Utils.swift"
-            timestampString = "562777646.5290281"
+            timestampString = "562781152.349135"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "124"
@@ -1209,7 +1209,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/PivxUtils/Utils.swift"
-            timestampString = "562777646.529063"
+            timestampString = "562781152.349177"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "126"
@@ -1225,11 +1225,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529097"
+            timestampString = "562781152.3492171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1647"
-            endingLineNumber = "1647"
+            startingLineNumber = "1645"
+            endingLineNumber = "1645"
             landmarkName = "-payToClipboard:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1241,11 +1241,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529138"
+            timestampString = "562781152.349269"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1660"
-            endingLineNumber = "1660"
+            startingLineNumber = "1658"
+            endingLineNumber = "1658"
             landmarkName = "-payToClipboard:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1257,11 +1257,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5291899"
+            timestampString = "562781152.349319"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1657"
-            endingLineNumber = "1657"
+            startingLineNumber = "1655"
+            endingLineNumber = "1655"
             landmarkName = "-payToClipboard:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1273,11 +1273,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529229"
+            timestampString = "562781152.349369"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1498"
-            endingLineNumber = "1498"
+            startingLineNumber = "1496"
+            endingLineNumber = "1496"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1289,11 +1289,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529266"
+            timestampString = "562781152.349418"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1499"
-            endingLineNumber = "1499"
+            startingLineNumber = "1497"
+            endingLineNumber = "1497"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1305,11 +1305,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529312"
+            timestampString = "562781152.349467"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1507"
-            endingLineNumber = "1507"
+            startingLineNumber = "1505"
+            endingLineNumber = "1505"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1321,11 +1321,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529357"
+            timestampString = "562781152.349515"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1508"
-            endingLineNumber = "1508"
+            startingLineNumber = "1506"
+            endingLineNumber = "1506"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1337,11 +1337,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529398"
+            timestampString = "562781152.349563"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1513"
-            endingLineNumber = "1513"
+            startingLineNumber = "1511"
+            endingLineNumber = "1511"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
             <Locations>
@@ -1400,11 +1400,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529434"
+            timestampString = "562781152.349612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1537"
-            endingLineNumber = "1537"
+            startingLineNumber = "1535"
+            endingLineNumber = "1535"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1416,27 +1416,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529493"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1516"
-            endingLineNumber = "1516"
-            landmarkName = "-payFirstFromArray:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529551"
+            timestampString = "562781152.349661"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1514"
             endingLineNumber = "1514"
+            landmarkName = "-payFirstFromArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NDBWallet/BRSendViewController.m"
+            timestampString = "562781152.34971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1512"
+            endingLineNumber = "1512"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
             <Locations>
@@ -1495,11 +1495,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.529592"
+            timestampString = "562781152.349758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1518"
-            endingLineNumber = "1518"
+            startingLineNumber = "1516"
+            endingLineNumber = "1516"
             landmarkName = "-payFirstFromArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1511,11 +1511,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRSendViewController.m"
-            timestampString = "562777646.5296299"
+            timestampString = "562781152.349826"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1676"
-            endingLineNumber = "1676"
+            startingLineNumber = "1674"
+            endingLineNumber = "1674"
             landmarkName = "-payToClipboard:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1527,7 +1527,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NDBWallet/BRPivxUtils.m"
-            timestampString = "562777646.529678"
+            timestampString = "562781152.349876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"

@@ -48,10 +48,8 @@
 #import "BRBIP32Sequence.h"
 #import "ndbwallet-Swift.h"
 
-#define SCAN_TIP      NSLocalizedString(@"Scan someone else's QR code to get their nodebase address. "\
-"You can send a payment to anyone with an address.", nil)
-#define CLIPBOARD_TIP NSLocalizedString(@"nodebase addresses can also be copied to the clipboard. "\
-"A nodebase address always starts with 'D' or '6'.", nil)
+#define SCAN_TIP      NSLocalizedString(@"Scan someone else's QR code to get their pivx address. You can send a payment to anyone with an address.", nil)
+#define CLIPBOARD_TIP NSLocalizedString(@"PIVX addresses can also be copied to the clipboard. A PIVX address always starts with 'X' or '7'.", nil)
 
 #define LOCK @"\xF0\x9F\x94\x92" // unicode lock symbol U+1F512 (utf-8)
 #define REDX @"\xE2\x9D\x8C"     // unicode cross mark U+274C, red x emoji (utf-8)

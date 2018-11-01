@@ -4,7 +4,7 @@
 " and " = " y ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mPIVX'. %@ = 1 PIVX." = "%@ es por 'mPIVX'. %@ = 1 PIV.";
+"%@ is for 'mPIVX'. %@ = 1 PIVX." = "%@ es por 'mNDB'. %@ = 1 NDB.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ no tiene permitido el acceso a la cámara";
@@ -46,13 +46,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\n Se necesita establecer una contraseña para proteger tu monedero. Ve a la configuración y activa el código de acceso para continuar.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\nPIVX addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\n​DIRECCIÓN YA UTILIZADA\nLas direcciones de PIVX están diseñadas para usarlas una vez\n\nre-usar una dirección PIVX compromete la privacidad tanto para ti como para el destinatario y puede provocar la pérdida de fondos si el destinatario no controla directamente sus direcciones.";
+"\nADDRESS ALREADY USED\nPIVX addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\n​DIRECCIÓN YA UTILIZADA\nLas direcciones de Nodebase están diseñadas para usarlas una vez\n\nre-usar una dirección Nodebase compromete la privacidad tanto para ti como para el destinatario y puede provocar la pérdida de fondos si el destinatario no controla directamente sus direcciones.";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\npermite el acceso a la cámara en \nAjustes->Privacidad->Cámara->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your PIVX.\n" = "\nNO permitas que nadie vea tu Frase de \nrecuperación o podria robar todos tus PIVX.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your PIVX.\n" = "\nNO permitas que nadie vea tu Frase de \nrecuperación o podria robar todos tus NDB.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nNO HAGAS una captura de pantalla. \nLas capturas de pantalla son visibles para otras aplicaciones y otros dispositivos.\n";
@@ -85,7 +85,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "La aplicación %@ solicita una dirección para que pueda pagarle. ¿Te gustaría autorizar esto?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIVX." = "La aplicación %@ desea recibir tu Llave Pública Maestra. Esta se puede utilizar para realizar un seguimiento de monedero, pero no se puede utilizar para transferir tus PIVX.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIVX." = "La aplicación %@ desea recibir tu Llave Pública Maestra. Esta se puede utilizar para realizar un seguimiento de monedero, pero no se puede utilizar para transferir tus NDB.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "contraseña incorrecta, inténtalo de nuevo";
@@ -112,10 +112,10 @@
 "block #%d of %d" = "bloque #%1$d de %2$d";
 
 /* No comment provided by engineer. */
-"Buy PIVX" = "Compra PIVX";
+"Buy PIVX" = "Compra NDB";
 
 /* No comment provided by engineer. */
-"Buy PIVX in PIVXwallet!" = "Compra PIVX en la PIVXwallet!";
+"Buy PIVX in PIVXwallet!" = "Compra NDB en la NDBwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "cancela";
@@ -145,7 +145,7 @@
 "clear trusted node?" = "limpiar nodo de confianza?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid pivx address" = "el portapapeles no contiene una dirección PIVX válida";
+"clipboard doesn't contain a valid pivx address" = "el portapapeles no contiene una dirección Nodebase válida";
 
 /* No comment provided by engineer. */
 "close app" = "cerrar aplicación";
@@ -187,31 +187,31 @@
 "couldn't sweep balance" = "no fue posible transferir el saldo";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to PIVX network" = "no fue posible transmitir el pago a la red PIVX";
+"couldn't transmit payment to PIVX network" = "no fue posible transmitir el pago a la red Nodebase";
 
 /* No comment provided by engineer. */
-"PIVX address" = "dirección PIVX";
+"PIVX address" = "dirección Nodebase";
 
 /* No comment provided by engineer. */
-"PIVX addresses can also be copied to the clipboard. A PIVX address always starts with 'X' or '7'." = "Las direcciones PIVX también se pueden copiar en el portapapeles. Una dirección PIVX siempre comienza con 'X' o '7'.";
+"PIVX addresses can also be copied to the clipboard. A PIVX address always starts with 'X' or '7'." = "Las direcciones Nodebase también se pueden copiar en el portapapeles. Una dirección Nodebase siempre comienza con 'X' o '7'.";
 
 /* No comment provided by engineer. */
-"PIVX network fee" = "Comisión de la red PIVX";
+"PIVX network fee" = "Comisión de la red Nodebase";
 
 /* No comment provided by engineer. */
-"PIVX payments can't be less than %@" = "Los pagos PIVX no pueden ser menos de %@";
+"PIVX payments can't be less than %@" = "Los pagos Nodebase no pueden ser menos de %@";
 
 /* No comment provided by engineer. */
-"PIVX transaction not signed" = "Transacción PIVX no firmada";
+"PIVX transaction not signed" = "Transacción Nodebase no firmada";
 
 /* No comment provided by engineer. */
-"PIVX transaction outputs can't be less than %@" = "Las transacciones de PIVX no pueden ser menores a %@";
+"PIVX transaction outputs can't be less than %@" = "Las transacciones de Nodebase no pueden ser menores a %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIVX)." = "SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación 'jailbreak' puede acceder al llavero de contraseñas de cualquier otra aplicación (y robar tus PIVX).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIVX)." = "SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación 'jailbreak' puede acceder al llavero de contraseñas de cualquier otra aplicación (y robar tus NDB).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIVX). Wipe this wallet immediately and restore on a secure device." = "SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación 'jailbreak' puede acceder al llavero de contraseñas de cualquier otra aplicación (y robar tus PIVX). Vacía  este monedero de inmediato y restaura en un dispositivo seguro.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIVX). Wipe this wallet immediately and restore on a secure device." = "SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación 'jailbreak' puede acceder al llavero de contraseñas de cualquier otra aplicación (y robar tus NDB). Vacía  este monedero de inmediato y restaura en un dispositivo seguro.";
 
 /* No comment provided by engineer. */
 "do it later" = "hacerlo después";
@@ -238,7 +238,7 @@
 "enter old passcode" = "ingrese el código de acceso anterior";
 
 /* No comment provided by engineer. */
-"error signing PIVX transaction" = "error al firmar la transacción PIVX";
+"error signing PIVX transaction" = "error al firmar la transacción Nodebase";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "error al firmar la transacción";
@@ -283,13 +283,13 @@
 "insufficient funds" = "fondos insuficientes";
 
 /* No comment provided by engineer. */
-"insufficient funds for PIVX network fee" = "fondos insuficientes para la comisión de la red PIVX";
+"insufficient funds for PIVX network fee" = "fondos insuficientes para la comisión de la red Nodebase";
 
 /* No comment provided by engineer. */
 "INVALID" = "NO VALIDO";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your PIVX address. Anyone can send PIVX to your wallet by transferring them to your address." = "Permite a otros escanear este código QR para leer tu dirección PIVX. Cualquiera persona puede transferir PIVX a tu monedero transfiriéndolos a tu dirección.";
+"Let others scan this QR code to get your PIVX address. Anyone can send PIVX to your wallet by transferring them to your address." = "Permite a otros escanear este código QR para leer tu dirección Nodebase. Cualquiera persona puede transferir NDB a tu monedero transfiriéndolos a tu dirección.";
 
 /* No comment provided by engineer. */
 "minute" = "minuto";
@@ -316,13 +316,13 @@
 "no peers found" = "no se encontraron pares";
 
 /* No comment provided by engineer. */
-"not a pivx QR code" = "no es un código QR de PIVX";
+"not a pivx QR code" = "no es un código QR de Nodebase";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "no es una dirección de Bitcoin válida";
 
 /* No comment provided by engineer. */
-"not a valid PIVX address" = "no es una dirección PIVX válida";
+"not a valid PIVX address" = "no es una dirección Nodebase válida";
 
 /* No comment provided by engineer. */
 "not a valid pivx address" = "no es una dirección pivx válida";
@@ -331,7 +331,7 @@
 "not a valid private key" = "no es una llave privada válida";
 
 /* No comment provided by engineer. */
-"not connected to the PIVX network" = "no conectado a la red PIVX";
+"not connected to the PIVX network" = "no conectado a la red Nodebase";
 
 /* No comment provided by engineer. */
 "ok" = "ok";
@@ -373,7 +373,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "\ntarifa: %@ = %@\nactualizado: %@\nbloque #%d of %d\npares conectados: %d\npares dl: %@";
 
 /* No comment provided by engineer. */
-"Receive PIVX at this address: %@" = "Recibe PIVX en esta dirección: %@";
+"Receive PIVX at this address: %@" = "Recibe Nodebase en esta dirección: %@";
 
 /* No comment provided by engineer. */
 "received" = "recibido";
@@ -424,7 +424,7 @@
 "retry" = "volver a intentar";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their pivx address. You can send a payment to anyone with an address." = "Escanea el código QR de otra persona para obtener su dirección PIVX. Puedes enviar pagos a cualquier persona con una dirección.";
+"Scan someone else's QR code to get their pivx address. You can send a payment to anyone with an address." = "Escanea el código QR de otra persona para obtener su dirección Nodebase. Puedes enviar pagos a cualquier persona con una dirección.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Las capturas de pantalla son visibles para otras aplicaciones y dispositivos. Genere una nueva frase de recuperación y manténgala en secreto.";
@@ -445,7 +445,7 @@
 "send" = "enviar";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The PIVX network will receive a fee of %@ (%@)." = "¿Enviar %1$@ (%2$@) desde esta llave privada a su monedero? La red PIVX recibirá una comisión de %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The PIVX network will receive a fee of %@ (%@)." = "¿Enviar %1$@ (%2$@) desde esta llave privada a su monedero? La red Nodebase recibirá una comisión de %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "enviar dirección como correo electrónico";
@@ -520,13 +520,13 @@
 "the app will now close" = "la aplicación se cerrará ahora";
 
 /* No comment provided by engineer. */
-"This is your PIVX address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Esta es tu dirección PIVX. Toca para copiarla o enviarla por correo electrónico o sms. La dirección cambiará cada vez que recibas fondos, pero las direcciones antiguas siempre funcionarán.";
+"This is your PIVX address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Esta es tu dirección Nodebase. Toca para copiarla o enviarla por correo electrónico o sms. La dirección cambiará cada vez que recibas fondos, pero las direcciones antiguas siempre funcionarán.";
 
 /* No comment provided by engineer. */
-"This is your PIVX balance." = "Este es tu saldo de PIVX.";
+"This is your PIVX balance." = "Este es tu saldo de Nodebase.";
 
 /* No comment provided by engineer. */
-"This is your PIVX balance. PIVX is a currency. The exchange rate changes with the market." = "Este es tu saldo de PIVX. PIVX es una moneda. La precio cambia según el mercado.";
+"This is your PIVX balance. PIVX is a currency. The exchange rate changes with the market." = "Este es tu saldo de Nodebase. NDB es una moneda. La precio cambia según el mercado.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "esta dirección de pago ya está en tu monedero";
@@ -634,13 +634,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "ESCRIBEA TU FRASE DE RECUPERACIÓN";
 
 /* No comment provided by engineer. */
-"You can now buy PIVX in\nPIVXwallet with cash or\nbank transfer." = "Ahora puedes comprar PIVX en la\nPIVXwallet con efectivo o\ntransferencia bancaria.";
+"You can now buy PIVX in\nPIVXwallet with cash or\nbank transfer." = "Ahora puedes comprar Nodebase en la\nNDBwallet con efectivo o\ntransferencia bancaria.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter PIVXwallet" = "debes ingresar tu PIN para ingresar a PIVXwallet";
+"you must enter your pin in order to enter PIVXwallet" = "debes ingresar tu PIN para ingresar a NDBwallet";
 
 /* No comment provided by engineer. */
-"you received PIVX!" = "¡recibiste PIVX!";
+"you received PIVX!" = "¡recibiste NDB!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Tu monedero parece estar desincronizado.\nEsto a menudo se puede arreglarse volviendo a escanear el blockchain.";
